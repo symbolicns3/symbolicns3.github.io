@@ -2,18 +2,22 @@
 layout: default
 ---
 
-# HInterOp
+# Symbolic NS3
 
-There has been an increasing interest in using hardware to implement network protocols, such as in ultra-high-speed networks (e.g., 40Gbps, 100Gbps) for scientific data movement. This is mainly because the processor overhead caused by the current software network protocol implementations increases considerably as the network speeds increase. However, there are usually big differences between software and hardware implementations for the same network protocol due to the unique hardware design constraints. Therefore, it is critical to test the interoperability between heterogeneous network protocol implementations to make sure that they can correctly interact with each other. This project proposes a new class of testing methods to efficiently and systematically check the interoperability of emerging heterogeneous network protocol implementations under two types of packet parameters: packet dynamic parameters (e.g., packet delay and loss), and packet semantics parameters (e.g., formats and meanings of packet fields), as different network protocol implementations communicate and interact with one another using packets. 
+Network programs, such as network protocols and applications, play essential roles on the Internet. However, their correctness is difficult to test, because their behaviors depend on their network environments, but the space of all possible network environments is prohibitively large. Symbolic execution, as a powerful program-analysis technique, can systemically and efficiently explore a large space by leveraging the equivalence classes of cases in the space. However, a significant barrier in using symbolic execution to test network programs is the substantial effort of instrumenting and modifying network programs to model their symbolic network environments. This project provides a powerful and general platform of symbolic network environments so that network programs can be more efficiently and easily tested using symbolic execution for various purposes, such as for finding low-probability bugs, and measuring worst-case performance.
+
+This project develops symbolic network environments by leveraging a well-developed and widely used network simulator, NS-3. Specifically, this project extends NS-3 and develops a symbolic network simulator, called SymNS-3, to symbolically test network programs in various symbolic network environments. SymNS-3 is designed to be easy to use: The application program interface (API) of NS-3 will be extended so that a tester can easily and flexibly define a customized symbolic network environment by just calling the APIs in a simulation script without the need to laboriously instrument the NS-3 simulator. SymNS-3 is also designed to be efficient: multiple NS-3 core components will be re-designed in order to exponentially reduce the number of explored program execution paths while still generating the correct simulation results
 
 # Team
 
 ## Prof. Lisong Xu
 
-## Prof. Witawas Srian-an
+## PhD Student: Minh Vu
 
-## PhD Student: Tianqi Fang
+## Master Student: Jianfei Shao
+
+## Master Student: Mingrui Zhang
 
 # Acknowledgement
 
-This project is supported in part by [NSF CNS](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2135539)
+This project is supported in part by [NSF FMitF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1918204&HistoricalAwards=false)
