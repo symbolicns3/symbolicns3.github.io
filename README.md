@@ -1,4 +1,4 @@
 
-# HInterOp
+# SymbolicNS3
 
-Efficient Interoperability Testing of Heterogeneous Network Protocol Implementations
+Symbolic Network Simulator
