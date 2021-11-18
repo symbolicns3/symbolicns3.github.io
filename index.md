@@ -32,6 +32,8 @@ Master Student: Jianfei Shao
 
 Master Student: Mingrui Zhang
 
+High-School Student: Stephen Jiang
+
 # Acknowledgement
 
 This project is supported in part by [NSF FMitF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1918204&HistoricalAwards=false)
