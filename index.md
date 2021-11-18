@@ -8,9 +8,11 @@ Network programs, such as network protocols and applications, play essential rol
 
 This project develops symbolic network environments by leveraging a well-developed and widely used network simulator, NS-3. Specifically, this project extends NS-3 and develops a symbolic network simulator, called SymNS-3, to symbolically test network programs in various symbolic network environments. SymNS-3 is designed to be easy to use: The application program interface (API) of NS-3 will be extended so that a tester can easily and flexibly define a customized symbolic network environment by just calling the APIs in a simulation script without the need to laboriously instrument the NS-3 simulator. SymNS-3 is also designed to be efficient: multiple NS-3 core components will be re-designed in order to significantly reduce the number of explored program execution paths while still generating the correct simulation results.
 
-# Code
+# Code and Tutorials
 
-[GitHub Repository](https://github.com/JeffShao96/Symbolic-NS3)
+[GitHub Repository](https://github.com/JeffShao96/Symbolic-NS3): supporting symbolic packet delay
+
+Symbolic packet headers will be released in early 2022
 
 # Documents
 
@@ -20,7 +22,7 @@ Minh Vu, Phuong Ha, and Lisong Xu, ["Efficient Correctness Testing of Linux Netw
 
 Jianfei Shao, Minh Vu, Mingrui Zhang, Lisong Xu, ["Symbolic NS-3 for Efficient Exhaustive Testing"](document/Sym_NS_3_Slides_2021.pdf), Lightning Talk, Workshop on NS-3, June, 2021
 
-Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", to appear on ACM Transactions on Modeling and Computer Simulation
+Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", to appear on ACM Transactions on Modeling and Computer Simulation, 2022
 
 # Team
 
@@ -32,8 +34,17 @@ Master Student: Jianfei Shao
 
 Master Student: Mingrui Zhang
 
+Undergraduate Student: TBD
+
 High-School Student: Stephen Jiang
+
+
+# Educational activities and broader impact
+
+The project has provided or will provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
+
+Symbolic NS-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. The first version of Symbolic NS-3 has been released to the NS-3 community. A technical report, a lightning talk, and a demo have been presented to NS-3 community. Based on the feedbacks, we are developing the next version of Symbolic NS-3 to be released in early 2002.
 
 # Acknowledgement
 
-This project is supported in part by [NSF FMitF](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1918204&HistoricalAwards=false)
+This project is supported in part by [NSF FMitF Track II](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1918204&HistoricalAwards=false)
