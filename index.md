@@ -10,13 +10,11 @@ This project develops symbolic network environments by leveraging a well-develop
 
 # Code and Tutorials
 
-[GitHub Repository](https://github.com/JeffShao96/Symbolic-NS3): supporting symbolic packet delay
-
-Symbolic packet headers will be released in early 2022
+[GitHub Repository](https://github.com/JeffShao96/Symbolic-NS3): Current version supports symbolic packet delay. The next version will support symbolic packet headers and will be released in early 2022.
 
 # Documents
 
-Jianfei Shao, Minh Vu, Lisong Xu, ["Symbolic NS-3 for Exhaustive Testing"](document/Sym_NS_3_V1.pdf), Technicial Report, 2020
+Jianfei Shao, Minh Vu, Lisong Xu, ["Symbolic NS-3 for Exhaustive Testing"](document/Sym_NS_3_V1.pdf), Technical Report, 2020
 
 Minh Vu, Phuong Ha, and Lisong Xu, ["Efficient Correctness Testing of Linux Network Stack under Packet Dynamics"](https://ieeexplore.ieee.org/abstract/document/9149060), IEEE International Conference on Communications (ICC), June 2020
 
@@ -43,7 +41,7 @@ High-School Student: Stephen Jiang
 
 The project has provided or will provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
 
-Symbolic NS-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. The first version of Symbolic NS-3 has been released to the NS-3 community. A technical report, a lightning talk, and a demo have been presented to NS-3 community. Based on the feedbacks, we are developing the next version of Symbolic NS-3 to be released in early 2002.
+Symbolic NS-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. The first version of Symbolic NS-3 has been released to the NS-3 community. A technical report, a lightning talk, and a demo have been presented to NS-3 community. Based on the feedbacks, we are developing the next version of Symbolic NS-3 to be released in early 2022.
 
 # Acknowledgement
 
