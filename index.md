@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Overview
+# Symbolic NS-3
 
 Network programs, such as network protocols and applications, play essential roles on the Internet. However, their correctness is difficult to test, because their behaviors depend on their network environments, but the space of all possible network environments is prohibitively large. Symbolic execution, as a powerful program-analysis technique, can systemically and efficiently explore a large space by leveraging the equivalence classes of cases in the space. However, a significant barrier in using symbolic execution to test network programs is the substantial effort of instrumenting and modifying network programs to model their symbolic network environments. This project provides a powerful and general platform of symbolic network environments so that network programs can be more efficiently and easily tested using symbolic execution for various purposes, such as for finding low-probability bugs, and measuring worst-case performance.
 
