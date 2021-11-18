@@ -14,9 +14,9 @@ This project develops symbolic network environments by leveraging a well-develop
 
 # Documents
 
-## Jianfei Shao, Minh Vu, Lisong Xu, ["Symbolic NS-3 for Exhaustive Testing"](document/Sym_NS_3_V1.pdf), Technicial Report, 2020
+Jianfei Shao, Minh Vu, Lisong Xu, ["Symbolic NS-3 for Exhaustive Testing"](document/Sym_NS_3_V1.pdf), Technicial Report, 2020
 
-## Minh Vu, Phuong Ha, and Lisong Xu, ["Efficient Correctness Testing of Linux Network Stack under Packet Dynamics"](https://ieeexplore.ieee.org/abstract/document/9149060), IEEE International Conference on Communications (ICC), June 2020
+Minh Vu, Phuong Ha, and Lisong Xu, ["Efficient Correctness Testing of Linux Network Stack under Packet Dynamics"](https://ieeexplore.ieee.org/abstract/document/9149060), IEEE International Conference on Communications (ICC), June 2020
 
 ## Jianfei Shao, Minh Vu, Mingrui Zhang, Lisong Xu, ["Symbolic NS-3 for Efficient Exhaustive Testing"](document/Sym_NS_3_Slides_2021.pdf), Lightning Talk, Workshop on NS-3, June, 2021
 
