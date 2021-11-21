@@ -32,14 +32,14 @@ Master Student: Jianfei Shao
 
 Master Student: Mingrui Zhang
 
-Undergraduate Student: TBD
+Undergraduate Student: Asmita Jayswal
 
 High-School Student: Stephen Jiang
 
 
 # Educational activities and broader impact
 
-The project has provided or will provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
+The project has provided and will conitnute to provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
 
 Symbolic NS-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. The first version of Symbolic NS-3 has been released to the NS-3 community. A technical report, a lightning talk, and a demo have been presented to NS-3 community. Based on the feedbacks, we are developing the next version of Symbolic NS-3 to be released in early 2022.
 
