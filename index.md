@@ -2,25 +2,42 @@
 layout: default
 ---
 
-# Symbolic NS-3
+# Symbolic ns-3
 
-Network programs, such as network protocols and applications, play essential roles on the Internet. However, their correctness is difficult to check, because their behaviors depend on their network environments, but the space of all possible network environments is prohibitively large. Symbolic execution, as a powerful program-analysis technique, can systemically and efficiently explore a large space by leveraging the equivalence classes of cases in the space. However, a significant barrier in using symbolic execution to test network programs is the substantial effort of instrumenting and modifying network programs to model their symbolic network environments. This project provides a powerful and general platform of symbolic network environments so that network programs can be more efficiently and easily tested using symbolic execution for various purposes, such as for finding low-probability bugs and measuring worst-case performance.
+This project develops sym-ns-3 for efficient exhaustive testing, where we need to exhaustively test a network protocol, a network application, or a network, for all possible cases. Exhaustive testing is useful if we need evaluate all possible performance, find the worst-case performance, or detect bugs of a protocol/application/network.
 
-This project develops symbolic network environments by leveraging a well-developed and widely used network simulator, NS-3. Specifically, this project extends NS-3 and develops a symbolic network simulator, called SymNS-3, to symbolically test network programs in various symbolic network environments. SymNS-3 is designed to be easy to use: The application program interface (API) of NS-3 will be extended so that a tester can easily and flexibly define a customized symbolic network environment by just calling the APIs in a simulation script without the need to laboriously instrument the NS-3 simulator. SymNS-3 is also designed to be efficient: multiple NS-3 core components will be re-designed in order to significantly reduce the number of explored program execution paths while still generating the correct simulation results.
+
+# Why?
+
+Network programs, such as network protocols and applications, play essential roles on the Internet. However, their correctness is difficult to check, because their behaviors depend on their network environments, but the space of all possible network environments is prohibitively large. Symbolic execution, as a powerful program-analysis technique, can systemically and efficiently explore a large space of cases by leveraging the equivalence classes of cases. However, a significant barrier in using symbolic execution to test network programs is the substantial effort of instrumenting and modifying network programs to model their symbolic network environments. This project provides a powerful and general platform of symbolic network environments, called sym-ns-3, by extending a well-developed and widely-used network simulator, [ns-3](https://www.nsnam.org/), and leveraging a powerful symbolic execution platform, [s2e](https://github.com/S2E/s2e). 
+
+
+# Goals
+
+sym-ns-3 is designed for efficient exhaustive testing. It is designed to be easy to use: current ns-3 users can easily learn sym-ns-3 and write sym-ns-3 scripts to symbolically test a protocol/application/network. sym-ns-3 is also designed to be efficient: multiple ns-3 components have been or will be re-designed to improve the test efficiency.
+
 
 # Code and Tutorials
 
-[GitHub Repository](https://github.com/JeffShao96/Symbolic-NS3): Current version supports symbolic packet delay. The next version will support symbolic packet headers and will be released in early 2022.
+[sym-ns-3 Code Repository](https://github.com/JeffShao96/Symbolic-NS3)
+
+First Exhaustive Testing Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/symDemo.cc), instruction, slides
+
+TCP Exhaustive Performance  Evaluation Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/tcp-demo.cc), instruction, slides,
+
+Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/reachabilitySymEx.cc), instruction, slides 
 
 # Documents
 
-Jianfei Shao, Minh Vu, Lisong Xu, ["Symbolic NS-3 for Exhaustive Testing"](document/Sym_NS_3_V1.pdf), Technical Report, 2020
+Jianfei Shao, Minh Vu, Mingrui Zhang, Asmita Jayswal, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing: Design, Implementation, and Simulations", Research Paper, Workshop on ns-3 (WNS3), June, 2022 [paper] [slides] [video]
 
-Minh Vu, Phuong Ha, and Lisong Xu, ["Efficient Correctness Testing of Linux Network Stack under Packet Dynamics"](https://ieeexplore.ieee.org/abstract/document/9149060), IEEE International Conference on Communications (ICC), June 2020
+Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", ACM Transactions on Modeling and Computer Simulation, Volume 32, Issue 2, April 2022  [[paper](https://doi.org/10.1145/3490028)]
 
-Jianfei Shao, Minh Vu, Mingrui Zhang, Lisong Xu, ["Symbolic NS-3 for Efficient Exhaustive Testing"](document/Sym_NS_3_Slides_2021.pdf), Lightning Talk, Workshop on NS-3, June, 2021
+Jianfei Shao, Minh Vu, Mingrui Zhang, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing", Lightning Talk, Workshop on ns-3 (WNS3), June, 2021 [[slides](document/Sym_NS_3_Slides_2021.pdf)]
 
-Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", to appear on ACM Transactions on Modeling and Computer Simulation, 2022
+Minh Vu, Phuong Ha, and Lisong Xu, "Efficient Correctness Testing of Linux Network Stack under Packet Dynamics", IEEE International Conference on Communications (ICC), June 2020 [[paper](https://ieeexplore.ieee.org/abstract/document/9149060)]
+
+Jianfei Shao, Minh Vu, Lisong Xu, "Symbolic NS-3 for Exhaustive Testing", Technical Report, 2020 [[paper](document/Sym_NS_3_V1.pdf)]
 
 # Team
 
@@ -34,14 +51,12 @@ Master Student: Mingrui Zhang
 
 Undergraduate Student: Asmita Jayswal
 
-High-School Student: Stephen Jiang
 
+# Impact
 
-# Educational activities and broader impact
+The project has provided and will continue  to provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
 
-The project has provided and will conitnute to provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
-
-Symbolic NS-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. The first version of Symbolic NS-3 has been released to the NS-3 community. A technical report, a lightning talk, and a demo have been presented to NS-3 community. Based on the feedbacks, we are developing the next version of Symbolic NS-3 to be released in early 2022.
+sym-ns-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. 
 
 # Acknowledgement
 
