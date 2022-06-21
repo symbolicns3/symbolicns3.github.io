@@ -4,7 +4,7 @@ layout: default
 
 # Symbolic ns-3
 
-This project develops sym-ns-3 for efficient exhaustive testing, where we need to exhaustively test a network protocol, a network application, or a network, for all possible cases. Exhaustive testing is useful if we need evaluate all possible performance, find the worst-case performance, or detect bugs of a protocol/application/network.
+This project develops sym-ns-3 for efficient exhaustive testing, where we need to exhaustively test a network protocol or a network application, for all possible cases. Exhaustive testing is useful if we need evaluate all possible performance, find the worst-case performance, or detect bugs of a network protocol or application.
 
 
 # Motivation
@@ -14,22 +14,24 @@ Network programs, such as network protocols and applications, play essential rol
 
 # Goals
 
-sym-ns-3 is designed for efficient exhaustive testing. It is designed to be easy to use: current ns-3 users can easily learn sym-ns-3 and write sym-ns-3 scripts to symbolically test a protocol/application/network. sym-ns-3 is also designed to be efficient: multiple ns-3 components have been or will be re-designed to improve the test efficiency.
+sym-ns-3 is designed for efficient exhaustive testing. It is designed to be easy to use: current ns-3 users can easily learn sym-ns-3 and write sym-ns-3 scripts to symbolically test a network protocol or program. sym-ns-3 is also designed to be efficient: multiple ns-3 components have been or will be re-designed to improve the test efficiency.
 
 
 # Code and Tutorials
 
-sym-ns-3: [code repository](https://github.com/JeffShao96/Symbolic-NS3)
+sym-ns-3: [code repository](https://github.com/JeffShao96/Symbolic-NS3), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md)
 
-First Exhaustive Testing Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/symDemo.cc), instruction, slides
+First Exhaustive Testing Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/symDemo.cc), instruction
 
-TCP Exhaustive Performance  Evaluation Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/tcp-demo.cc), instruction, slides,
+TCP Exhaustive Performance  Evaluation Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/tcp-demo.cc), instruction
 
-Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/reachabilitySymEx.cc), instruction, slides 
+Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/reachabilitySymEx.cc), instruction
+
+The design and examples of sym-ns-3 are described in our WNS 2022 [paper],  [slides], and [talk]. 
 
 # Documents
 
-Jianfei Shao, Minh Vu, Mingrui Zhang, Asmita Jayswal, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing: Design, Implementation, and Simulations", Research Paper, Workshop on ns-3 (WNS3), June, 2022 [paper] [slides] [video]
+Jianfei Shao, Minh Vu, Mingrui Zhang, Asmita Jayswal, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing: Design, Implementation, and Simulations", Research Paper, Workshop on ns-3 (WNS3), June, 2022 [paper]
 
 Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", ACM Transactions on Modeling and Computer Simulation, Volume 32, Issue 2, April 2022  [[paper](https://doi.org/10.1145/3490028)]
 
