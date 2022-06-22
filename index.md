@@ -29,7 +29,7 @@ Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Sym
 
 More Efficient IP Reacjability Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/IPEfficientSymEx.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#44-more-efficient-ip-reachability)
 
-The design and examples of sym-ns-3 are described in our WNS 2022 [paper],  [[slides](document/Sym_NS_3_Slides_2022.pdf)], and [talk]. 
+The design and examples of sym-ns-3 are described in our WNS 2022 [paper](link will be added soon),  [[slides](document/Sym_NS_3_Slides_2022.pdf)], and [talk](link will be added soon). 
 
 # Documents
 
@@ -61,6 +61,13 @@ Undergraduate Student: Asmita Jayswal
 The project has provided and will continue  to provide several students with trainings in network simulation, network protocols, software testing, symbolic execution, and technical writing and presentations. 
 
 sym-ns-3 being developed in this project will likely enable the networking community to more efficiently test network protocols for measuring worst-case performance or finding low-probability bugs in a large test space. 
+
+# Contact
+
+If you have any questions, please feel free to contact us. 
+* [Jianfei Shao](mailto:jianfei.shao@huskers.unl.edu?subject=SymbolicNS3)
+* [Lisong Xu](mailto:xu@unl.edu?subject=SymbolicNS3)
+
 
 # Acknowledgement
 
