@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Symbolic ns-3
+
 
 This project develops sym-ns-3 for efficient exhaustive testing, where we need to exhaustively test a network protocol or a network application, for all possible cases. Exhaustive testing is useful if we need evaluate all possible performance, find the worst-case performance, or detect bugs of a network protocol or application.
 
