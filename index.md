@@ -21,11 +21,13 @@ sym-ns-3 is designed for efficient exhaustive testing. It is designed to be easy
 
 sym-ns-3: [code repository](https://github.com/JeffShao96/Symbolic-NS3), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md)
 
-First Exhaustive Testing Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/symDemo.cc), instruction
+First Exhaustive Testing Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/symDemo.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#41-first-exhaustive-testing-example)
 
-TCP Exhaustive Performance  Evaluation Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/tcp-demo.cc), instruction
+TCP Exhaustive Performance  Evaluation Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/tcp-demo.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#42-tcp-exhaustive-performance-evaluation)
 
-Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/reachabilitySymEx.cc), instruction
+Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/reachabilitySymEx.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#43-whole-network-ip-reachability)
+
+More Efficient IP Reacjability Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/IPEfficientSymEx.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#44-more-efficient-ip-reachability)
 
 The design and examples of sym-ns-3 are described in our WNS 2022 [paper],  [slides], and [talk]. 
 
