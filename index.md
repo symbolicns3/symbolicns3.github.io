@@ -27,7 +27,7 @@ TCP Exhaustive Performance  Evaluation Example: [code](https://github.com/JeffSh
 
 Whole Network IP Reachability  Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/reachabilitySymEx.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#43-whole-network-ip-reachability)
 
-More Efficient IP Reacjability Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/IPEfficientSymEx.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#44-more-efficient-ip-reachability)
+More Efficient IP Reachability Example: [code](https://github.com/JeffShao96/Symbolic-NS3/blob/master/ns-3-dev/scratch/IPEfficientSymEx.cc), [instruction](https://github.com/JeffShao96/Symbolic-NS3/blob/master/README.md#44-more-efficient-ip-reachability)
 
 The design and examples of sym-ns-3 are described in our WNS 2022 [[paper](https://doi.org/10.1145/3532577.3532604)],  [[slides](document/Sym_NS_3_Slides_2022.pdf)], and [talk](link will be added soon). 
 
