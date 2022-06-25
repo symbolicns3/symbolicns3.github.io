@@ -33,13 +33,13 @@ The design and examples of sym-ns-3 are described in our WNS 2022 [[paper](https
 
 # Documents
 
-Jianfei Shao, Minh Vu, Mingrui Zhang, Asmita Jayswal, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing: Design, Implementation, and Simulations", Research Paper, [Workshop on ns-3 (WNS3)](https://www.nsnam.org/research/wns3/wns3-2022/program/), June, 2022 [[paper](https://doi.org/10.1145/3532577.3532604)] [[slides](document/Sym_NS_3_Slides_2022.pdf)]
+Jianfei Shao, Minh Vu, Mingrui Zhang, Asmita Jayswal, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing: Design, Implementation, and Simulations", Research Paper, [Workshop on ns-3 (WNS3)](https://www.nsnam.org/research/wns3/wns3-2022/program/), June, 2022 [[paper](https://doi.org/10.1145/3532577.3532604)] [[slides](document/Sym_NS_3_Slides_2022.pdf)] [code](https://github.com/JeffShao96/Symbolic-NS3)
 
-Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", ACM Transactions on Modeling and Computer Simulation, Volume 32, Issue 2, April 2022  [[paper](https://doi.org/10.1145/3490028)]
+Minh Vu, Lisong Xu, Sebastian Elbaum, Wei Sun, Kevin Qiao, "Efficient protocol testing with temporal uncertain events using discrete event simulator", ACM Transactions on Modeling and Computer Simulation, Volume 32, Issue 2, April 2022  [[paper](https://doi.org/10.1145/3490028)] [Code](https://github.com/minhvu2/ns3-symbolic)
 
-Jianfei Shao, Minh Vu, Mingrui Zhang, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing", Lightning Talk, [Workshop on ns-3 (WNS3)](https://www.nsnam.org/research/wns3/wns3-2021/program/), June, 2021 [[slides](document/Sym_NS_3_Slides_2021.pdf)]
+Jianfei Shao, Minh Vu, Mingrui Zhang, Lisong Xu, "Symbolic NS-3 for Efficient Exhaustive Testing", Lightning Talk, [Workshop on ns-3 (WNS3)](https://www.nsnam.org/research/wns3/wns3-2021/program/), June 2021 [[slides](document/Sym_NS_3_Slides_2021.pdf)]
 
-Minh Vu, Phuong Ha, and Lisong Xu, "Efficient Correctness Testing of Linux Network Stack under Packet Dynamics", IEEE International Conference on Communications (ICC), June 2020 [[paper](https://ieeexplore.ieee.org/abstract/document/9149060)]
+Minh Vu, Phuong Ha, and Lisong Xu, "Efficient Correctness Testing of Linux Network Stack under Packet Dynamics", IEEE International Conference on Communications (ICC), June 2020 [[paper](https://ieeexplore.ieee.org/abstract/document/9149060)] [Code](https://github.com/minhvu2/packet-dynamics-platform)
 
 Jianfei Shao, Minh Vu, Lisong Xu, "Symbolic NS-3 for Exhaustive Testing", Technical Report, 2020 [[paper](document/Sym_NS_3_V1.pdf)]
 
@@ -66,6 +66,7 @@ sym-ns-3 being developed in this project will likely enable the networking commu
 
 If you have any questions, please feel free to contact us. 
 * [Jianfei Shao](mailto:jianfei.shao@huskers.unl.edu?subject=SymbolicNS3)
+* [Minh Vu](mailto:minh.vu@huskers.unl.edu?subject=SymbolicNS3)
 * [Lisong Xu](mailto:xu@unl.edu?subject=SymbolicNS3)
 
 
