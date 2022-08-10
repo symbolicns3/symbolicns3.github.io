@@ -4,12 +4,12 @@ layout: default
 
 
 
-This project develops sym-ns-3 for efficient exhaustive testing, where we need to exhaustively test a network protocol or a network application, for all possible cases. Exhaustive testing is useful if we need evaluate all possible performance, find the worst-case performance, or detect bugs of a network protocol or application.
+This project develops sym-ns-3 for efficient exhaustive testing, where we exhaustively test a network protocol or a network application for all possible cases. Exhaustive testing is useful if we need to evaluate all possible performance, find the worst-case performance, or detect bugs in a network protocol or application.
 
 
 # Motivation
 
-Network programs, such as network protocols and applications, play essential roles on the Internet. However, their correctness is difficult to check, because their behaviors depend on their network environments, but the space of all possible network environments is prohibitively large. Symbolic execution, as a powerful program-analysis technique, can systemically and efficiently explore a large space of cases by leveraging the equivalence classes of cases. However, a significant barrier in using symbolic execution to test network programs is the substantial effort of instrumenting and modifying network programs to model their symbolic network environments. This project provides a powerful and general platform of symbolic network environments, called sym-ns-3, by extending a well-developed and widely-used network simulator, [ns-3](https://www.nsnam.org/), and leveraging a powerful symbolic execution platform, [s2e](https://github.com/S2E/s2e). 
+Network programs, such as network protocols and applications, play essential roles on the Internet. However, their correctness is difficult to check because their behaviors depend on their network environments, but the space of all possible network environments is prohibitively large. Symbolic execution, as a powerful program-analysis technique, can systemically and efficiently explore a large space of cases by leveraging the equivalence classes of cases. However, a significant barrier in using symbolic execution to test network programs is the substantial effort of instrumenting and modifying network programs to model their symbolic network environments. This project provides a powerful and general platform of symbolic network environments, called sym-ns-3, by extending a well-developed and widely-used network simulator, [ns-3](https://www.nsnam.org/), and leveraging a powerful symbolic execution platform, [s2e](https://github.com/S2E/s2e). 
 
 
 # Goals
